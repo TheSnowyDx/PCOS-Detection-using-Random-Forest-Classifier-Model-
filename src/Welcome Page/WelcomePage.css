@@ -1,0 +1,46 @@
+.wp-main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover; /* Cover entire page */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  backdrop-filter: blur(10px);
+}
+
+.caption{
+    /* border: 1px solid black; */
+    width: 680px;
+    font-size: 24px;
+    font-weight: 500;
+    /* padding-left: 100px; */
+    position: absolute;
+    bottom: 55%;
+    left: 40%;
+    color: rgb(255, 255, 255);
+}
+
+.button-style{
+        font-size: 1.5rem;  /* Bigger text */
+        padding: 15px 30px; /* More padding */
+        width: 250px;       /* Set width */
+        height: 60px;       /* Set height */
+        border-radius: 19px 0px 19px 0px; /* Rounded corners */
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+        position: absolute;
+        left: 40%;
+        bottom: 46%;
+        border: none;
+      }
+      
+.button-style:hover {
+        background-color: #76a2e0; /* Change color on hover */
+}
